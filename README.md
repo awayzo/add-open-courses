@@ -7,6 +7,10 @@ Design** approach.
 This repo is where I publish course-ready resources that learners can actually
 open, study, modify, and build from.
 
+If you are new to GitHub, start here first:
+
+- [Learner GitHub Quick Start](LEARNER_GITHUB_QUICKSTART.md)
+
 ## What This Repo Is For
 
 This space is meant to do a few things well:

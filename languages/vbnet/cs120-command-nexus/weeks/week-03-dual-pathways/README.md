@@ -32,6 +32,10 @@ The starter templates are intentionally guided. In some places they are also
 intentionally incomplete so learners get practice debugging, reading code they
 do not fully understand yet, and working forward anyway.
 
+If GitHub is still new to you, read this first:
+
+- [Learner GitHub Quick Start](../../../../../LEARNER_GITHUB_QUICKSTART.md)
+
 ## Where To Start
 
 If you want the calmer path, start with:

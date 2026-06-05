@@ -1,61 +1,47 @@
 # Week 03 // Dual Pathways
 
-This module pack teaches the same programming target through two story paths:
+This Week 3 pack teaches the same VB.NET learning target through two story
+paths:
 
-- Frex // Agra Route Recall
-- MAS // Asteroid Response Alert
+- **Frex // Agra Route Recall**
+- **MAS // Asteroid Response Alert**
 
-## Intended Repo Shape
+The story changes, but the programming goal stays aligned.
 
-```text
-week-03-dual-pathways/
-  README.md
-  docs/
-  templates/
-  master/
-  assets/
-```
+## What This Pack Includes
 
-## Current Local Source
+- `templates/`
+  - learner starter projects for Frex and MAS
+- `master/`
+  - a completed reference build with both pathways finished
+- `docs/`
+  - tutorial step lists and pack notes
+- `assets/`
+  - source images used by the projects
 
-Current prepared source pack:
+## What Learners Practice
 
-- `D:\PROJECTS\PROJECT_COURSE_DEV\VB_NET\VBNET_COMMAND_NEXUS\07_ASSETS\assignments\3\projects`
+This week is built around beginner-friendly VB.NET work such as:
 
-## Migration Notes
+- button-based input
+- visible output through labels and interface feedback
+- conditionals that change the result
+- early procedures, functions, and simple organization
 
-### `templates/`
+The starter templates are intentionally guided. In some places they are also
+intentionally incomplete so learners get practice debugging, reading code they
+do not fully understand yet, and working forward anyway.
 
-Move in:
+## Where To Start
 
-- `AgraRouteRecallTemplate`
-- `AsteroidResponseAlertTemplate`
+If you want the calmer path, start with:
 
-### `master/`
+- `templates/AgraRouteRecallTemplate`
 
-Move in:
+If you want the more urgent path, start with:
 
-- `Week3DualPathwaysMaster`
+- `templates/AsteroidResponseAlertTemplate`
 
-### `docs/`
+If you want to inspect the finished answer-key style reference build, open:
 
-Move in:
-
-- tutorial step lists
-- assignment readme
-
-### `assets/`
-
-Move in:
-
-- agra map background
-- asteroid field background
-
-## Public Positioning
-
-This is a strong early public pack because it shows:
-
-- beginner VB.NET teaching
-- dual-context learning design
-- starter project scaffolding
-- debugging-first pedagogy
+- `master/Week3DualPathwaysMaster`

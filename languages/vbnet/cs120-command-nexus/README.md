@@ -1,30 +1,26 @@
 # VB.NET // CS120 Command Nexus
 
-This course folder holds reusable assignment packs, starter projects, and
-instructor docs for the Command Nexus VB.NET course.
+This folder holds the public assignment packs, starter templates, and reference
+materials for the **Command Nexus** VB.NET course line.
 
-## Structure
+The goal is simple: make it easier for learners to open a week, find the right
+starter project, and begin building without having to dig through unrelated
+files first.
 
-```text
-cs120-command-nexus/
-  README.md
-  course.json
-  weeks/
-```
+## What You Will Find Here
 
-## Current Planned Packs
+Each week or module may include:
 
-- Week 03 // Dual Pathways
-- Week 04 // Functions and Encapsulation
-- future app-building weeks
+- learner starter templates
+- a completed master reference build
+- support docs
+- assignment assets
 
-## Design Rule
+Everything is grouped so the learning pack stays together in one predictable
+place.
 
-Each week folder should always keep:
+## Current Published Pack
 
-- learner templates
-- master reference build
-- docs
-- assets
+- [Week 03 // Dual Pathways](weeks/week-03-dual-pathways)
 
-in predictable places so learners and instructors do not have to guess.
+More packs will be added here over time as the public course library grows.

@@ -16,6 +16,24 @@ This is better than creating one separate repo for every assignment because:
 - it avoids a cluttered profile full of tiny single-purpose repos
 - it keeps ADD visible as the parent identity
 
+## Public Voice Rule
+
+Anything that faces the public should read like a public project page, not like
+an internal planning memo.
+
+For public-facing README files and learner-facing descriptions, prefer:
+
+- clear and human language
+- practical explanations of what the material is for
+- direct guidance on how to use the pack
+
+Avoid:
+
+- migration notes
+- local machine paths
+- internal workflow phrasing
+- strategy language that belongs in private planning docs instead
+
 ## Brand Recommendation
 
 Use:

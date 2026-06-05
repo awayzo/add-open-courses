@@ -1,0 +1,13 @@
+{
+  "id": "cs120-command-nexus",
+  "language": "vbnet",
+  "display_name": "CS120 Command Nexus",
+  "folder_strategy": {
+    "module_type": "weeks",
+    "module_prefix": "week-",
+    "template_folder": "templates",
+    "master_folder": "master",
+    "docs_folder": "docs",
+    "assets_folder": "assets"
+  }
+}

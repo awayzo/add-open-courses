@@ -1,0 +1,30 @@
+{
+  "languages": [
+    {
+      "id": "vbnet",
+      "name": "VB.NET",
+      "courses": [
+        {
+          "id": "cs120-command-nexus",
+          "name": "CS120 Command Nexus",
+          "status": "active-blueprint",
+          "modules": [
+            {
+              "id": "week-03-dual-pathways",
+              "name": "Week 03 // Dual Pathways",
+              "status": "ready-to-migrate",
+              "local_source": "D:\\PROJECTS\\PROJECT_COURSE_DEV\\VB_NET\\VBNET_COMMAND_NEXUS\\07_ASSETS\\assignments\\3\\projects",
+              "contents": [
+                "master project",
+                "Frex template",
+                "MAS template",
+                "tutorial step lists",
+                "assignment assets"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

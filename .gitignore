@@ -1,0 +1,24 @@
+# OS
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+dist/
+release/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Temporary files
+*.tmp
+*.log

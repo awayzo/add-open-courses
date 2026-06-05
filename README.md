@@ -76,27 +76,6 @@ Some templates are intentionally incomplete or contain guided debugging points.
 That is part of the teaching design. Learners are expected to get used to
 working forward even when every part of a project is not fully explained yet.
 
-## Public And Private Boundaries
-
-This repo is public, but it is not meant to expose every internal course
-operation file.
-
-Public here usually means:
-
-- learner-facing templates
-- reusable docs
-- assignment packs
-- selected reference builds
-
-Private or local-only materials may still stay outside this repo when they are
-better kept as internal delivery assets.
-
-For more detail, see:
-
-- [PUBLIC_VS_PRIVATE_SCOPE.md](PUBLIC_VS_PRIVATE_SCOPE.md)
-- [LICENSE-STRATEGY.md](LICENSE-STRATEGY.md)
-- [TRADEMARKS_AND_BRAND.md](TRADEMARKS_AND_BRAND.md)
-
 ## Why This Exists
 
 I want learners to have something better than a pile of disconnected files.

@@ -1,161 +1,108 @@
 # ADD Open Courses
 
-This repository blueprint is designed to hold reusable course templates, starter
-projects, assignment packs, and teaching docs across multiple programming
-languages under the ADD ecosystem.
+ADD Open Courses is a public teaching library for reusable starter projects,
+assignment packs, and learning materials built around the **Attention Driven
+Design** approach.
 
-It is built to solve four needs at once:
+This repo is where I publish course-ready resources that learners can actually
+open, study, modify, and build from.
 
-1. keep VB.NET course templates organized
-2. leave room for Python, C#, JavaScript, and other languages later
-3. give learners a clean place to download starter packs
-4. build an open GitHub footprint around the ADD teaching framework and related books
+## What This Repo Is For
 
-## Brand Position
+This space is meant to do a few things well:
 
-This repo should publicly sit under the same larger identity as:
+- give learners clean starter templates they can download and use
+- share guided teaching materials in a way that is practical and transparent
+- organize course packs across multiple programming languages
+- grow an open body of work connected to the ADD ecosystem
+
+## The ADD Connection
+
+This work grows out of the same larger teaching and writing ecosystem as:
 
 - `ADD // Attention Driven Design`
 - `Attention First`
 - `ADD P2P`
-- future ADD-aligned course systems and books
 
-That gives the public work a recognizable author identity instead of making it
-feel like a generic file dump.
+The goal is not just to post code. The goal is to publish learning materials
+that help people practice a concept more than once, in more than one context,
+until it actually starts to stick.
 
-## Recommended GitHub Repo Name
-
-Use:
-
-- `add-open-courses`
-
-That is the strongest fit because it is:
-
-- branded
-- short
-- reusable across languages
-- broad enough for future course lines
-
-## Public Positioning
-
-This should become a **public-facing educational template repo**, but not a dump
-of every internal course file.
-
-Recommended model:
-
-- public repo for reusable learner-facing assets
-- private/local operations space for grading, unreleased packs, and internal
-  delivery systems
-
-See:
-
-- [PUBLIC_VS_PRIVATE_SCOPE.md](D:\PROJECTS\PROJECT_COURSE_DEV\VB_NET\ADD_OPEN_COURSES\PUBLIC_VS_PRIVATE_SCOPE.md)
-- [LICENSE-STRATEGY.md](D:\PROJECTS\PROJECT_COURSE_DEV\VB_NET\ADD_OPEN_COURSES\LICENSE-STRATEGY.md)
-- [TRADEMARKS_AND_BRAND.md](D:\PROJECTS\PROJECT_COURSE_DEV\VB_NET\ADD_OPEN_COURSES\TRADEMARKS_AND_BRAND.md)
-
-## Recommended Top-Level Structure
+## How The Repo Is Organized
 
 ```text
 add-open-courses/
-  README.md
-  REPO_STRATEGY.md
-  COURSE_CATALOG.json
-  shared/
-    docs/
-    policies/
   languages/
     vbnet/
       cs120-command-nexus/
-        README.md
-        course.json
         weeks/
-          week-03-dual-pathways/
-            README.md
-            docs/
-            templates/
-            master/
-            assets/
-    python/
-    csharp/
-    javascript/
-  releases/
-    vbnet/
-    python/
 ```
 
-## Why This Structure Works
+The structure is organized by:
 
-### `languages/`
-This is the strongest first level because it scales cleanly.
+1. language
+2. course
+3. week or module
 
-It lets you keep:
+That makes it easier to expand later into Python, C#, JavaScript, and other
+course lines without mixing unrelated materials together.
 
-- VB.NET
-- Python
-- C#
-- JavaScript
+## Current Public Course Line
 
-in one public system without mixing their starter packs together.
+### VB.NET // CS120 Command Nexus
 
-### `cs120-command-nexus/`
-This is the course level.
+Current published pack:
 
-That keeps all VB.NET assets for one course together while still leaving room
-for:
+- [Week 03 // Dual Pathways](languages/vbnet/cs120-command-nexus/weeks/week-03-dual-pathways)
 
-- `cs101-foundations`
-- `cs150-game-dev`
-- `business-apps-vbnet`
+This pack currently includes:
 
-later.
+- Frex starter template
+- MAS starter template
+- completed master reference build
+- tutorial step lists
+- source assets
 
-### `weeks/`
-This keeps the course navigable for students and for you.
+## How To Use The Materials
 
-If a learner needs only Week 3, they can land directly in that folder and see:
+Depending on the pack, you may find:
 
-- docs
-- templates
-- master reference build
-- assets
+- a learner starter template
+- a master reference project
+- support docs
+- assignment assets
 
-without digging through unrelated materials.
+Some templates are intentionally incomplete or contain guided debugging points.
+That is part of the teaching design. Learners are expected to get used to
+working forward even when every part of a project is not fully explained yet.
 
-### `releases/`
-This is where you can later place generated zip packages or download bundles.
+## Public And Private Boundaries
 
-That matters because GitHub is great for public visibility, but learners often
-want a single direct download instead of browsing source folders.
+This repo is public, but it is not meant to expose every internal course
+operation file.
 
-## Download Strategy For Learners
+Public here usually means:
 
-For GitHub itself, the easiest learner-friendly pattern is:
+- learner-facing templates
+- reusable docs
+- assignment packs
+- selected reference builds
 
-1. keep the source organized in the monorepo
-2. publish downloadable zip packs in GitHub Releases
-3. link each assignment pack directly from your course shell or syllabus
+Private or local-only materials may still stay outside this repo when they are
+better kept as internal delivery assets.
 
-That gives you:
+For more detail, see:
 
-- open source visibility in the repo
-- cleaner downloads for learners
-- versioned releases for course updates
+- [PUBLIC_VS_PRIVATE_SCOPE.md](PUBLIC_VS_PRIVATE_SCOPE.md)
+- [LICENSE-STRATEGY.md](LICENSE-STRATEGY.md)
+- [TRADEMARKS_AND_BRAND.md](TRADEMARKS_AND_BRAND.md)
 
-## Current VB.NET Entry
+## Why This Exists
 
-The first live course to map into this structure is:
+I want learners to have something better than a pile of disconnected files.
 
-- `VB.NET / CS120 / Command Nexus`
+I also want the open side of this work to reflect the real teaching method
+behind it: application first, action next, amplification after the learner has
+already touched the work.
 
-The first active assignment pack already prepared for migration is:
-
-- `Week 03 // Dual Pathways`
-
-See:
-
-- [languages/vbnet/cs120-command-nexus/README.md](D:\PROJECTS\PROJECT_COURSE_DEV\VB_NET\ADD_OPEN_COURSES\languages\vbnet\cs120-command-nexus\README.md)
-
-## Next Step
-
-Create an empty GitHub repository manually with the recommended name, then use
-this local blueprint as the starting contents.
+If that sounds like your kind of course material, you are in the right repo.
